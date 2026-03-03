@@ -1,14 +1,119 @@
-<style>
-h2 {
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 36px;
-    color: #2c3e50;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background: linear-gradient(90deg, #ffd6e0, #cce7ff);
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f3f3f3;
+    color: #222;
 }
-</style>
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #111;
+    color: white;
+}
+
+.masthead {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #222;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #f0c040;
+}
+
+/* Main Content */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+.headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.meta {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    border-left: 4px solid #f0c040;
+    padding-left: 10px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Rankings Box */
+.rankings {
+    background-color: #fafafa;
+    padding: 20px;
+    border-top: 3px solid #111;
+    margin-top: 30px;
+}
+
+.rankings h3 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.footer-sub {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #bbb;
+}
